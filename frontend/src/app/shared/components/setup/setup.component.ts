@@ -7,6 +7,7 @@ import {Button} from 'primeng/button';
 import {Message} from 'primeng/message';
 import {passwordMatchValidator} from '../../validators/password-match.validator';
 import {TranslocoDirective, TranslocoService} from '@jsverse/transloco';
+import {GrimmoryMarkComponent} from '../grimmory-mark/grimmory-mark.component';
 
 @Component({
   selector: 'app-setup',
@@ -18,7 +19,8 @@ import {TranslocoDirective, TranslocoService} from '@jsverse/transloco';
     InputText,
     Button,
     Message,
-    TranslocoDirective
+    TranslocoDirective,
+    GrimmoryMarkComponent
   ]
 })
 export class SetupComponent {

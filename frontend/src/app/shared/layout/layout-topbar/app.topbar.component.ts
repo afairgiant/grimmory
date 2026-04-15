@@ -25,6 +25,7 @@ import { TranslocoDirective, TranslocoService } from '@jsverse/transloco';
 import { AVAILABLE_LANGS, LANG_LABELS } from '../../../core/config/transloco-loader';
 import { LANG_STORAGE_KEY } from '../../../core/config/language-initializer';
 import type { MenuItem } from 'primeng/api';
+import { GrimmoryLogoComponent } from '../../components/grimmory-logo/grimmory-logo.component';
 
 @Component({
   selector: 'app-topbar',
@@ -44,6 +45,7 @@ import type { MenuItem } from 'primeng/api';
     NgStyle,
     Menu,
     TranslocoDirective,
+    GrimmoryLogoComponent,
   ],
 })
 export class AppTopBarComponent implements OnDestroy {

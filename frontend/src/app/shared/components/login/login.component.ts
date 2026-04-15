@@ -10,6 +10,7 @@ import {take} from 'rxjs/operators';
 import {AppSettingsService} from '../../service/app-settings.service';
 import {TranslocoDirective, TranslocoService} from '@jsverse/transloco';
 import {OidcService} from '../../../core/security/oidc.service';
+import {GrimmoryMarkComponent} from '../grimmory-mark/grimmory-mark.component';
 
 @Component({
   selector: 'app-login',
@@ -19,7 +20,8 @@ import {OidcService} from '../../../core/security/oidc.service';
     Button,
     Message,
     InputText,
-    TranslocoDirective
+    TranslocoDirective,
+    GrimmoryMarkComponent
   ],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
